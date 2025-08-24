@@ -16,8 +16,8 @@ create table Customers (
 	ID int auto_increment,
     FirstName varchar(50),
     LastName varchar(50),
-    Email varchar(50),
-    Address varchar(50),
+    Email varchar(100),
+    Address varchar(100),
     primary key (ID)
 );
 
